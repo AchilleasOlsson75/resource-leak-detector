@@ -1,0 +1,17 @@
+{
+  "name": "resource-leak-detector",
+  "version": "0.1.0",
+  "description": "Wraps resource creation in WeakRef-tracked guards that report handles surviving GC sweeps.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
